@@ -1,4 +1,4 @@
-# EchoLink Core Service - Single-user 
+# EchoLink Core Service - Single-user Service
 Dapp to add and query user info, job and experiences on EKO-PoPS node based on EKO Blockchain Platform.
 
 ## Prerequisites
