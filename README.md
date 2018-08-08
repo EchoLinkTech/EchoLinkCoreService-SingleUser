@@ -19,22 +19,22 @@ User need to enter following details
 - status
 - image
     
-User can save the credentials to blockchain using `Save` button. A `Save Credential` transaction will be executed which consumes some of your ether balance. It interacts with EKO-Pops through `CredentialStore` contarct.
+User can save the credentials to blockchain using `Save` button. A `Save Credential` transaction will be executed which consumes some of your ether balance. It interacts with EKO-PoPS through `CredentialStore` contarct.
 
 #### Query Credentials
-You can query the credentials in blockhain using `Status` field. It will display a list of all the matching credentials along with uploaded images. It interacts with EKO-Pops through `CredentialStore` contract.
+You can query the credentials in blockhain using `Status` field. It will display a list of all the matching credentials along with uploaded images. It interacts with EKO-PoPS through `CredentialStore` contract.
 
 #### Submit Posting
-A user can perform a transaction to post a job (for eg, Java, SQL, Node) to EKO-Pops node. Account ether balance on parity node must be greater than `amountOfEnergyForPosting` to perform a successful transaction. It interacts with EKO-Pops through `PostingStore` contract.
+A user can perform a transaction to post a job (for eg, Java, SQL, Node) to EKO-PoPS node. Account ether balance on parity node must be greater than `amountOfEnergyForPosting` to perform a successful transaction. It interacts with EKO-Pops through `PostingStore` contract.
 
 #### Query Posting
-Posted jobs can be queried (like Java, SQL, Node) in EKO-Pops blockchain, provided the Ether Balance is greater than  `amountOfEnergyForQuerying`. It interacts with EKO-Pops through `PostingStore` contract.
+Posted jobs can be queried (like Java, SQL, Node) in EKO-PoPS blockchain, provided the Ether Balance is greater than  `amountOfEnergyForQuerying`. It interacts with EKO-PoPS through `PostingStore` contract.
 
 #### Add Experience
 A user can add experience in some technology with years of experience and Employee Address. Account ether balance on parity node must be greater than `amountOfEnergyForPosting` to perform a successful transaction. It interacts with EKO-Pops through `ExperienceStore` contract.
 
 #### Query Experience
-Employee experience can be queried using years of experience and specific technology in EKO-Pops node provided the Ether Balance is greater than `amountOfEnergyForQuerying`. It interacts with EKO-Pops through `ExperienceStore` contract.
+Employee experience can be queried using years of experience and specific technology in EKO-PoPS node provided the Ether Balance is greater than `amountOfEnergyForQuerying`. It interacts with EKO-PoPS through `ExperienceStore` contract.
 
 The transactionHash for the last successful transaction will be displayed.
 
