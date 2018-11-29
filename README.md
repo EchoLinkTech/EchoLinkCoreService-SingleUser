@@ -1,4 +1,4 @@
-# Single-user
+# EchoLink Core Service - Single-user Version
 Dapp to add and query user info, job and experiences on parity node.
 
 ## Prerequisites
